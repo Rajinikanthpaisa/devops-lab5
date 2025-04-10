@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+    <div class="container">
+        <h2>REGISTRATION PAGE</h2>
+        <form action="register.php" method="post">
+          <div class="myBox">
+            <label for="name"><b>NAME:</b></label>
+            <input type="text" id="name" name="name" placeholder="NAME" required>
+          </div>
+          <div class="myBox">
+            <label for="name"><b>ID:</b></label>
+            <input type="text" id="id" name="id" placeholder="STUDENT ID" required>
+          </div>
+          
+          <div class="myBox">
+            <label for="password"><b>PASSWORD:</b></label>
+            <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+          </div>
+          <div class="myBox">
+            <label for="course"><b>Course:</b></label>
+            <select  name="course" id="course">
+                <option >CSE</option>
+                <option >ECE</option>
+                <option >EEE</option>
+                <option >CE</option>
+                <option >ME</option>
+                <option >MME</option>
+                <option >CHE</option>
+            </select>
+        </div><br>
+        <div class="submit">
+            <input type="submit" value="Register">
+        </div>
+        </form>
+        <p>If you Already registered! <a href="login.html">Login</a></p>
+    </div>
+</body>
+</html>
+
