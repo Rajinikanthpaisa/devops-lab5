@@ -1,0 +1,3 @@
+commands
+sudo docker build -t docker .
+sudo docker run -p 8081:8081 docker
